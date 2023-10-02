@@ -1,0 +1,13 @@
+tasks:
+  - name: Setup Python
+  - init: |
+      cd 01-Login
+      pip install -r requirements.txt
+
+
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - ms-python.python
+    - tabnine.tabnine-vscode
